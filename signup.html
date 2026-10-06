@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign up — Northline Week</title>
+  <meta name="description" content="Join a Northline Week list.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body class="">
+  <header class="site-header" id="site-header">
+    <div class="site-header__bar">
+      <a class="logo" href="index.html">
+        <span class="logo__mark">N</span>
+        <span class="logo__name">Northline<small>Week</small></span>
+      </a>
+      <button class="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="has-sub">
+            <a href="events.html">Tickets</a>
+            <ul>
+              <li><a href="events.html">All events</a></li>
+              <li><a href="wristband.html">City wristband</a></li>
+            </ul>
+          </li>
+          <li><a href="chats.html">Group chats</a></li>
+          <li><a href="signup.html">Sign up</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="socials">
+          <a href="signup.html" data-net="facebook" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 9h3V6h-3c-2.2 0-4 1.8-4 4v2H8v3h2v7h3v-7h2.6l.4-3H13v-2c0-.6.4-1 1-1z"/></svg></a>
+          <a href="signup.html" data-net="instagram" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4zm5 4.6A4.4 4.4 0 1 0 16.4 12 4.4 4.4 0 0 0 12 7.6zm6.1-.8a1.1 1.1 0 1 0 1.1 1.1 1.1 1.1 0 0 0-1.1-1.1zM12 9.4A2.6 2.6 0 1 1 9.4 12 2.6 2.6 0 0 1 12 9.4z"/></svg></a>
+          <a href="signup.html" data-net="youtube" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 12.2s0-3.2-.4-4.6a3 3 0 0 0-2.1-2.1C18.9 5 12 5 12 5s-6.9 0-8.5.5a3 3 0 0 0-2.1 2.1C1 9 1 12.2 1 12.2s0 3.2.4 4.6a3 3 0 0 0 2.1 2.1C5.1 19.4 12 19.4 12 19.4s6.9 0 8.5-.5a3 3 0 0 0 2.1-2.1c.4-1.4.4-4.6.4-4.6zM9.8 15.5v-6.6l6.2 3.3z"/></svg></a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <header class="page-header">
+      <h1 class="page-header__heading">Sign up</h1>
+    </header>
+    <section class="page-section">
+      <div class="container">
+        <form class="form" data-form>
+          <label>Name<input name="name" required autocomplete="name"></label>
+          <label>Email<input name="email" type="email" required autocomplete="email"></label>
+          <label>College
+            <select name="college" id="college">
+              <option value="">Choose a college</option>
+            <option value="ashmere">Ashmere College</option>
+            <option value="briar">Briar Hall</option>
+            <option value="calder">Calder Institute</option>
+            <option value="dunwich">Dunwich School of Art</option>
+            <option value="eastmere">Eastmere University</option>
+            <option value="fox">Fox Quay Business</option>
+            <option value="greywater">Greywater Polytechnic</option>
+            <option value="harbour">Harbour Law</option>
+            <option value="ivybridge">Ivybridge Conservatoire</option>
+            <option value="juniper">Juniper Medical</option>
+            <option value="kingswell">Kingswell College</option>
+            <option value="lantern">Lantern Design</option>
+            </select>
+          </label>
+          <label>Residence, if you have one
+            <select name="hall" id="hall">
+              <option value="">No residence yet</option>
+            <option value="pier-house">Pier House</option>
+            <option value="lantern-court">Lantern Court</option>
+            <option value="quay">Quay Residences</option>
+            <option value="wharf">North Wharf</option>
+            <option value="seabright">Seabright Halls</option>
+            <option value="calder-yard">Calder Yard</option>
+            <option value="assembly">Assembly Lofts</option>
+            <option value="greywater">Greywater House</option>
+            </select>
+          </label>
+          <label class="check"><input type="checkbox" name="wristband"> Send me the wristband holding details</label>
+          <button class="btn" type="submit">Join the list</button>
+        </form>
+        <div class="notice" hidden>
+          <h2 class="event__title">You are on the list</h2>
+          <p>We will email the chat link and any wristband steps to the address you entered. This demo keeps that note in the browser only.</p>
+        </div>
+      </div>
+    </section>
+    <script>
+      var params = new URLSearchParams(location.search);
+      var college = params.get("college");
+      var hall = params.get("hall");
+      if (college) document.getElementById("college").value = college;
+      if (hall) document.getElementById("hall").value = hall;
+    </script>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <div>
+        <a class="logo logo--light" href="index.html">
+          <span class="logo__mark">N</span>
+          <span class="logo__name">Northline<small>Week</small></span>
+        </a>
+        <p style="margin-top: 28px;">14 Pier Street<br>Northline<br><a href="mailto:hello@northlineweek.example">hello@northlineweek.example</a><br><a href="tel:+441632960000">01632 960000</a></p>
+      </div>
+      <div class="socials">
+        <a href="signup.html" data-net="facebook" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 9h3V6h-3c-2.2 0-4 1.8-4 4v2H8v3h2v7h3v-7h2.6l.4-3H13v-2c0-.6.4-1 1-1z"/></svg></a>
+        <a href="signup.html" data-net="instagram" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4zm5 4.6A4.4 4.4 0 1 0 16.4 12 4.4 4.4 0 0 0 12 7.6zm6.1-.8a1.1 1.1 0 1 0 1.1 1.1 1.1 1.1 0 0 0-1.1-1.1zM12 9.4A2.6 2.6 0 1 1 9.4 12 2.6 2.6 0 0 1 12 9.4z"/></svg></a>
+        <a href="signup.html" data-net="youtube" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 12.2s0-3.2-.4-4.6a3 3 0 0 0-2.1-2.1C18.9 5 12 5 12 5s-6.9 0-8.5.5a3 3 0 0 0-2.1 2.1C1 9 1 12.2 1 12.2s0 3.2.4 4.6a3 3 0 0 0 2.1 2.1C5.1 19.4 12 19.4 12 19.4s6.9 0 8.5-.5a3 3 0 0 0 2.1-2.1c.4-1.4.4-4.6.4-4.6zM9.8 15.5v-6.6l6.2 3.3z"/></svg></a>
+      </div>
+    </div>
+    <div class="container footer-bar">
+      <p>© 2026 Northline Week</p>
+      <nav aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="events.html">Tickets</a>
+        <a href="chats.html">Group chats</a>
+        <a href="halls.html">Halls</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="assets/js/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,594 @@
+/*********************************************************************************
+**********************************************************************************
+Font Family and weight
+*********************************************************************************
+*********************************************************************************/
+
+body {
+font-family: 'Rubik', sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.meta {
+font-family: 'Rubik', sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.page-header__heading {
+font-family: 'Poppins', sans-serif;
+font-weight: 800;
+font-style: normal;
+}
+
+.event-single__heading {
+font-family: 'Poppins', sans-serif;
+font-weight: 800;
+font-style: normal;
+}
+
+.section-heading, .section-sub-heading {
+font-family: 'Poppins', sans-serif;
+font-weight: 800;
+font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Poppins', sans-serif;
+font-weight: 800;
+font-style: normal;
+}
+
+.primary-header__menu-item, .primary-header__sub-menu-item {
+font-family: 'Poppins', sans-serif;
+font-weight: 800;
+font-style: normal;
+}
+
+.heading-link, .card__heading {
+font-family: 'Poppins', sans-serif;
+font-weight: 800;
+font-style: normal;
+}
+
+.card__button, .button, .content-block__button, [type=button], [type=reset], [type=submit], button, .sticky-button__button {
+font-family: 'Poppins', sans-serif;
+font-weight: 800;
+font-style: normal;
+  border-radius: 8px!important;
+}
+
+
+
+
+
+
+/****************
+Gutter
+****************/
+.primary-header__container,
+.page-header__container,
+.container,
+.events-side-by-side__container,
+.events-side-by-side-carousel__container,
+.events-list__container,
+.events-list-alternate__container,
+.events-grid__container,
+.posts-grid__container,
+.events-grid-carousel__container,
+.posts-grid-carousel__container,
+.posts-grid-flexible__container,
+.events-grid-text-over-image-single-centred-carousel__container,
+.events-grid-text-over-image-1-column__container,
+.events-grid-text-over-image-1-column-carousel__container,
+.posts-grid-text-over-image-2-column__container,
+.posts-grid-text-over-image-2-column-carousel__container,
+.events-grid-text-over-image-2-column__container,
+.events-grid-text-over-image-2-column-carousel__container,
+.events-grid-text-over-image-3-column__container,
+.events-grid-text-over-image-3-column-carousel__container,
+.posts-grid-text-over-image-3-column-carousel__container,
+.posts-grid-text-over-image-3-column__container,
+.events-grid-text-over-image-3-card-masonary__container,
+.events-grid-text-over-image-3-card-masonary-carousel__container,
+.posts-grid-text-over-image-3-card-masonary__container,
+.posts-grid-text-over-image-3-card-masonary-carousel__container,
+.events-grid-text-over-image-5-cards-2-rows__container,
+.events-grid-text-over-image-5-cards-2-rows-carousel__container,
+.posts-grid-text-over-image-5-cards-2-rows-carousel__container,
+.generic-content__container,
+.simple-accordion__container,
+.event-single__container,
+.events-side-by-side__container,
+.events-grid-flexible__container,
+.events-grid-flexible-columns__container,
+.events-grid-flexible-columns-carousel__container,
+.events-grid-text-over-image-flexible-columns-carousel__container,
+.events-grid-text-over-image-flexible-columns__container,
+.events-grid-text-over-image-masonary__container,
+.events-grid-text-over-image-masonary-carousel__container,
+.content-block-lineup__container,
+.content-block-lineup__lineup-heading-wrapper,
+.content-block-lineup__content-container,
+.content-block-menu__container,
+.content-block-menu__menu-heading-wrapper,
+.content-block-menu__content-container,
+.posts-grid-text-over-image-flexible-columns__container,
+.posts-grid-text-over-image-flexible-columns-carousel__container,
+.posts-grid-text-over-image-masonary__container,
+.posts-grid-text-over-image-masonary-carousel__container,
+.events-grid-text-over-image-single-centred-carousel__card
+{
+	padding-left: 20px!important;
+	padding-right: 20px!important;
+}
+
+@media (min-width:768px) {
+	.primary-header__container,
+    .page-header__container,
+    .container,
+    .events-side-by-side__container,
+    .events-side-by-side-carousel__container,
+    .events-list__container,
+    .events-list-alternate__container,
+    .events-grid__container,
+    .posts-grid__container,
+    .events-grid-carousel__container,
+    .posts-grid-carousel__container,
+    .posts-grid-flexible__container,
+    .events-grid-text-over-image-single-centred-carousel__container,
+    .events-grid-text-over-image-1-column__container,
+    .events-grid-text-over-image-1-column-carousel__container,
+    .posts-grid-text-over-image-2-column__container,
+    .posts-grid-text-over-image-2-column-carousel__container,
+    .events-grid-text-over-image-2-column__container,
+    .events-grid-text-over-image-2-column-carousel__container,
+    .events-grid-text-over-image-3-column__container,
+    .events-grid-text-over-image-3-column-carousel__container,
+    .posts-grid-text-over-image-3-column-carousel__container,
+    .posts-grid-text-over-image-3-column__container,
+    .events-grid-text-over-image-3-card-masonary__container,
+    .events-grid-text-over-image-3-card-masonary-carousel__container,
+    .posts-grid-text-over-image-3-card-masonary__container,
+    .posts-grid-text-over-image-3-card-masonary-carousel__container,
+    .events-grid-text-over-image-5-cards-2-rows__container,
+    .events-grid-text-over-image-5-cards-2-rows-carousel__container,
+    .posts-grid-text-over-image-5-cards-2-rows-carousel__container,
+    .generic-content__container,
+    .simple-accordion__container,
+    .event-single__container,
+    .events-side-by-side__container,
+    .events-grid-flexible__container,
+    .events-grid-flexible-columns__container,
+    .events-grid-flexible-columns-carousel__container,
+    .events-grid-text-over-image-flexible-columns-carousel__container,
+    .events-grid-text-over-image-flexible-columns__container,
+    .events-grid-text-over-image-masonary__container,
+    .events-grid-text-over-image-masonary-carousel__container,
+    .content-block-lineup__container,
+    .content-block-lineup__lineup-heading-wrapper,
+    .content-block-lineup__content-container,
+    .content-block-menu__container,
+    .content-block-menu__menu-heading-wrapper,
+    .content-block-menu__content-container,
+    .posts-grid-text-over-image-flexible-columns__container,
+    .posts-grid-text-over-image-flexible-columns-carousel__container,
+    .posts-grid-text-over-image-masonary__container,
+    .posts-grid-text-over-image-masonary-carousel__container,
+    .events-grid-text-over-image-single-centred-carousel__card
+    {
+		padding-left: 15px!important;
+		padding-right: 15px!important;
+	}
+}
+
+
+/****************
+Event Page Meta
+****************/
+.event-single--v2 .event-single__meta, 
+.event-single--v3 .event-single__meta,
+.event-single--v4 .event-single__meta,
+.event-single--v2 .meta--social, 
+.event-single--v3 .meta--social,
+.event-single--v4 .meta--social
+{
+	font-size: 16px;
+  	color: #000;
+}
+
+@media (min-width: 768px) {
+	.event-single--v2 .event-single__container--image {
+    	max-width: 1110px;
+	}
+}
+
+/*** Footer Styling ***/
+.primary-footer__brand-wrap {
+    margin: 40px auto;
+}
+
+
+/*** Button Styling ***/
+
+.button:hover, .content-block__button:hover, :hover[type=button], :hover[type=reset], :hover[type=submit], button:hover {
+    color: #fff;
+	background-color: #fe2393;
+	border-color: #fe2393;
+  border-radius: 8px!important;
+}
+
+/*** Page Header & Content Block Header font sizes ***/
+.page-header__heading {
+    font-size: 50px;
+}
+
+@media (min-width: 768px) {
+.page-header__heading {
+    font-size: 67px;
+}
+}
+
+.section-heading {
+    font-size: 35px;
+}
+
+@media (min-width: 768px) {
+.section-heading {
+    font-size: 43px;
+}
+}
+
+.event-single__social-link .fa, .event-single__social-link .ev {
+    color: #000;
+}
+
+/*** Sticky Button ***/
+.sticky-button {
+    background-color: #f6f6f6f6;
+    border-top: none;
+}
+
+.sticky-button__button, .sticky-button__button:hover {
+    background-color: #fe2393!important;
+    border: 1px solid #fe2393;
+    color: #fff;
+    font-size: 16px;
+	font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;	
+}
+
+/*** Hide Carousel Control ***/
+.carousel__control, .carousel__control:hover {
+	display: none;
+}
+
+.city_button_container {
+display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+  text-align: center;
+}
+
+.city_button {
+    padding: 4px;
+}
+
+.city_button_width {
+    font-size: 12px;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+.city_button_width {
+    font-size: 10px;
+}
+}
+
+@media (min-width: 1200px) {
+.primary-header__menu-item {
+    font-size: 16px;
+}
+}
+
+.footer-email {
+	font-weight: 700;
+}
+
+.primary-header__wrap {
+    background-color: #000;
+}
+
+
+.primary-header__menu-link {
+    color: #fff;
+}
+
+.primary-header.is-expanded .primary-header__wrap {
+    background-color: #000;
+}
+
+.primary-header__menu-toggle-bar {
+    background-color: #fff;
+}
+
+/*** Dropdown Styling ***/
+.primary-header__menu-list {
+overflow-y: visible;
+}
+
+/** Change this colour to match the background colour **/
+@media (min-width: 1200px) {
+.primary-header__primary-header__menu-item--has-children:hover .primary-header__sub-menu-list {
+    background-color: #000;
+}
+}
+
+/** Change this colour to match correct font colour, normally opposite the bg colour **/
+.primary-header__sub-menu-link {
+    color: #fff;
+}
+
+.primary-header__sub-menu-item {
+    font-size: 16px;
+  	text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+.primary-header__sub-menu-item {
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 5px;
+    white-space: nowrap;
+}
+}
+
+@media (min-width: 1200px) {
+.primary-header__primary-header__menu-item--has-children:hover .primary-header__sub-menu-list {
+    display: grid;
+}
+}
+
+.freshersbutton {
+font-size: 24px!important;
+}
+
+
+.event-single--v2 .event-single__content {
+ background-color: #fff;
+  color: #000;
+  padding-bottom: 60px;
+  padding-top: 0px;
+}
+
+.fatsoma-events-template-default .primary-footer {
+    margin-bottom: 0px;
+}
+
+ .event-single {
+        padding-bottom: 0px;
+    }
+
+@media (min-width: 768px) {
+    .event-single {
+        padding-bottom: 0px;
+    }
+}
+
+body.home {
+  background-color: #000;
+}
+
+.home .content-block {
+    background-color: #000;
+}
+
+/* ================================
+   Scoped Premium Phone Layout
+   Only affects Form 2 phone fields
+   ================================ */
+
+/* Put country + phone on same row */
+#field_2_17,
+#field_2_4 {
+  float: left;
+  margin-bottom: 8px;
+}
+
+/* Width split */
+#field_2_17 {
+  width: 30%;
+  padding-right: 0;
+}
+
+#field_2_4 {
+  width: 70%;
+  padding-left: 0;
+}
+
+/* Hide country label for cleaner look */
+#field_2_17 .gfield_label {
+  display: none;
+}
+
+/* Remove default spacing */
+#field_2_17 .ginput_container,
+#field_2_4 .ginput_container {
+  margin-top: 0 !important;
+}
+
+/* Match heights */
+#field_2_17 select,
+#field_2_4 input {
+  height: 54px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+/* Country field styling */
+#field_2_17 select {
+  width: 100%;
+  border-right: none;
+  border-radius: 8px 0 0 8px;
+  padding-left: 14px;
+}
+
+/* Phone field styling */
+#field_2_4 input {
+  width: 100%;
+  border-radius: 0 8px 8px 0;
+  padding-left: 16px;
+}
+
+/* Keep description under phone only */
+#field_2_4 .gfield_description {
+  font-size: 13px;
+  opacity: 0.7;
+  margin-top: 6px;
+}
+
+/* Clear float after phone row */
+#field_2_4 {
+  clear: right;
+}
+
+/* Mobile stacking */
+@media (max-width: 640px) {
+  #field_2_17,
+  #field_2_4 {
+    float: none;
+    width: 100%;
+  }
+
+  #field_2_17 select {
+    border-radius: 8px 8px 0 0;
+    border-right: 1px solid #ddd;
+  }
+
+  #field_2_4 input {
+    border-radius: 0 0 8px 8px;
+  }
+}
+
+/* Hide Phone Number label only (Form 2) */
+#field_2_4 > .gfield_label {
+  display: none;
+}
+
+.phone-combined-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+/* Remove native arrow */
+#field_2_17 select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: none;
+  padding-right: 40px;
+  position: relative;
+}
+
+/* Custom arrow */
+#field_2_17 .ginput_container_select {
+  position: relative;
+}
+
+#field_2_17 .ginput_container_select::after {
+  content: "";
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #333;
+  pointer-events: none;
+}
+
+/* =================================
+   Global Gravity Forms Styling
+   ================================= */
+
+.gform_wrapper {
+  border: 1px solid #e6e6e6;
+  border-radius: 16px;
+  padding: 40px;
+  background: #ffffff;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+}
+
+/* Optional subtle elevation */
+.gform_wrapper {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+}
+
+/* Clean internal spacing */
+.gform_wrapper .gform_fields {
+  row-gap: 20px;
+}
+
+/* Tidy footer spacing */
+.gform_wrapper .gform_footer {
+  margin-top: 30px;
+}
+
+/* =================================
+   Global Gravity Forms Field Styling
+   ================================= */
+
+.gform_wrapper input[type="text"],
+.gform_wrapper input[type="email"],
+.gform_wrapper input[type="tel"],
+.gform_wrapper input[type="number"],
+.gform_wrapper input[type="url"],
+.gform_wrapper input[type="password"],
+.gform_wrapper select,
+.gform_wrapper textarea {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  height: 54px;
+  padding: 0 16px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Textarea needs height reset */
+.gform_wrapper textarea {
+  height: auto;
+  padding: 14px 16px;
+}
+
+/* Focus state */
+.gform_wrapper input:focus,
+.gform_wrapper select:focus,
+.gform_wrapper textarea:focus {
+  outline: none;
+  border-color: #000;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05);
+}
+
+/* Remove inconsistent default margins */
+.gform_wrapper .ginput_container {
+  margin-top: 6px;
+}
+.content-block--instagram {
+      display: none !important;
+    }
+    .primary-footer__instagram-wrap {
+      display: none !important;
+    }
